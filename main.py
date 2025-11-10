@@ -1,14 +1,14 @@
-print("Welcome to the FTC I:SO chatbot!")
+print("Welcome to Sarah's Restaurant!")
 name = input("What is your name?")
-age = input( name + ", How old are you?")
-print("Oh, to be "+ age +"again!")
 print("How can I help you today," + name + "?")
 
 #options:
 while True:
-  print("1. See a team's stats")
-  print("2. Check the latest match in a league")
-  print("3. Check a match's score")
+  print("\n  Main Menu   ")
+  print("1. View Menu")
+  print("2. View Today's Specials")
+  print("3. Place an Order")
+  print("4. Make a Reservation")
   print("4. Exit")
   
   choice = input("Please select an option from 1-4:")
